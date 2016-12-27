@@ -1,1 +1,1 @@
-# freecodecampe
+# freeCodeCamp
