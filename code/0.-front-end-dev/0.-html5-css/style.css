@@ -2,7 +2,11 @@
   color: red;
 }
 
+h2 {
+  font-family: Lobster;
+}
+
 p {
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 16px;
 }
