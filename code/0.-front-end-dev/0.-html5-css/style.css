@@ -17,6 +17,10 @@
   background-color: silver;
 }
 
+#cat-photo-form {
+  background-color: green;
+}
+
 h2 {
   font-family: Lobster, monospace;
 }
