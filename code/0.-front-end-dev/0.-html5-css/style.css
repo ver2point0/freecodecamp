@@ -13,6 +13,10 @@
   border-radius: 50%;
 }
 
+.silver-background {
+  background-color: silver;
+}
+
 h2 {
   font-family: Lobster, monospace;
 }
