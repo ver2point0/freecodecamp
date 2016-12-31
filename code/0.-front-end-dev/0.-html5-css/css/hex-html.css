@@ -4,17 +4,17 @@ body {
 }
 
 .red-text {
-  color: #FF0000;
+  color: #F00;
 }
 
 .green-text {
-  color: #00FF00;
+  color: #0F0;
 }
 
-.dodger-blue-text {
-  color: #2998e4;
+.fuchsia-text {
+  color: #F0F;
 }
 
-.orange-text {
-  color: #FFA500;
+.cyan-text {
+  color: #0FF;
 }
