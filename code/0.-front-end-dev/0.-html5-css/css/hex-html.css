@@ -2,3 +2,19 @@ body {
   /* black background */
   background-color: #000000; 
 }
+
+.red-text {
+  color: #FF0000;
+}
+
+.green-text {
+  color: #00FF00;
+}
+
+.dodger-blue-text {
+  color: #2998e4;
+}
+
+.orange-text {
+  color: #FFA500;
+}
