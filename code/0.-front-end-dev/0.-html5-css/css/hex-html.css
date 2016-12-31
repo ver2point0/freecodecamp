@@ -4,17 +4,17 @@ body {
 }
 
 .red-text {
-  color: #F00;
+  color: rgb(255, 0, 0);
 }
 
-.green-text {
-  color: #0F0;
+.orchid-text {
+  color: rgb(218, 112, 214);
 }
 
-.fuchsia-text {
-  color: #F0F;
+.sienna-text {
+  color: rgb(160, 82, 45);
 }
 
-.cyan-text {
-  color: #0FF;
+.blue-text {
+  color: rgb(0, 0, 255);
 }
