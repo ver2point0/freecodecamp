@@ -5,14 +5,12 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" type="text/css" href="css/cat-photo-style.css">
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   </head>
   <body>
     <div class="container-fluid">
-      <h2 class="red-text text-center">CatPhotoApp</h2>
-      <p>View more <a href="http://freecatphotoapp.com">cat photos</a></p>
-      <a href="#"><img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="relaxing cats"></a>
+      <h2 id="lobster" class="text-primary text-center">CatPhotoApp</h2>
+      <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="relaxing cats"></a>
       <img class="img-responsive" src="https://bit.ly/fcc-running-cats" alt="running cats">
       
       <div class="row">
@@ -26,7 +24,7 @@
           <button class="btn btn-block btn-danger">Delete</button>
         </div>
       </div>
-      <div class="silver-background">
+      <div>
         <p>Things cats love:</p>
           <ul>
             <li>Sleep</li>
@@ -45,7 +43,7 @@
       <label><input type="checkbox" name="personality" checked>Loving</label>
       <label><input type="checkbox" name="personality">Shy</label>
       <label><input type="checkbox" name="personality">Playful</label>
-      <form id="cat-photo-form" action="/submit-cat-photo">
+      <form action="/submit-cat-photo">
         <input type="text" placeholder="cat photo URL" required>
         <button type="submit">Submit</button>
       </form>

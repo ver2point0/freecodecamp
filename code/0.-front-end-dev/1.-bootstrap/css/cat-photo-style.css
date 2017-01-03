@@ -1,9 +1,10 @@
-.red-text {
-  color: red;
+/* lobster id added to maintain lobster font-family */
+#lobster {
+  font-family: Lobster;
 }
 
-.smaller-image {
-  width: 100px;
+h2 {
+  font-family: Lobster, monospace;
 }
 
 .thick-green-border {
@@ -11,21 +12,4 @@
   border-width: 10px;
   border-style: solid;
   border-radius: 50%;
-}
-
-.silver-background {
-  background-color: silver;
-}
-
-#cat-photo-form {
-  background-color: green;
-}
-
-h2 {
-  font-family: Lobster, monospace;
-}
-
-p {
-  font-family: monospace;
-  font-size: 16px;
 }
