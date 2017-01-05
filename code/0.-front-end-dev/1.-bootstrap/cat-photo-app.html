@@ -49,28 +49,30 @@
             <li>Vet visits</li>
           </ol>
       </div>
-      <div class="row">
-        <div class="col-xs-6">
-          <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
-        </div>
-        <div class="col-xs-6">
-          <label><input type="radio" name="indoor-outdoor">Outdoor</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-4">
-          <label><input type="checkbox" name="personality" checked>Loving</label>
-        </div>
-        <div class="col-xs-4">
-          <label><input type="checkbox" name="personality">Shy</label>
-        </div>
-        <div class="col-xs-4">
-          <label><input type="checkbox" name="personality">Playful</label>
-        </div>
-      </div>
       <form action="/submit-cat-photo">
-        <input type="text" placeholder="cat photo URL" required>
-        <button type="submit">Submit</button>
+        <div class="row">
+          <div class="col-xs-6">
+            <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
+          </div>
+          <div class="col-xs-6">
+            <label><input type="radio" name="indoor-outdoor">Outdoor</label>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality" checked>Loving</label>
+          </div>
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality">Shy</label>
+          </div>
+          <div class="col-xs-4">
+            <label><input type="checkbox" name="personality">Playful</label>
+          </div>
+        </div>
+    
+        <input type="text" class="form-control" placeholder="cat photo URL" required>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
       </form>
     </div>
   </body>
