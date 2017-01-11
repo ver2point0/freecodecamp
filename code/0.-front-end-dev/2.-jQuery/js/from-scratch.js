@@ -5,4 +5,5 @@ $(document).ready(function() {
   $("#target3").addClass("btn-primary");
   $("button").removeClass("btn-default");
   $("#target1").css("color", "red");
+  $("#target1").prop("disabled", true);
 });
