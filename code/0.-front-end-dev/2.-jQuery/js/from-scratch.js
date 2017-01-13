@@ -5,4 +5,5 @@ $(document).ready(function() {
   $("#target2").appendTo("#right-well");
   $("#target5").clone().appendTo("#left-well");
   $("#target1").parent().css("background-color", "red");
+  $("#right-well").children().css("color", "orange");
 });
