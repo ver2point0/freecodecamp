@@ -7,3 +7,5 @@ var myName = "jane doe";
 
 var myNum = 0;
 
+var camelCase;
+camelCase = "This is camelCase."
