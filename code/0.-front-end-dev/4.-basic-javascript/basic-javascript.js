@@ -2,3 +2,5 @@
 /*
   multi-line comment
 */
+
+var myName;
