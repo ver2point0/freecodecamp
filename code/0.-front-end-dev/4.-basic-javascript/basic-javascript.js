@@ -9,3 +9,5 @@ var myNum = 0;
 
 var camelCase;
 camelCase = "This is camelCase."
+
+var sum = 23 + 198;
