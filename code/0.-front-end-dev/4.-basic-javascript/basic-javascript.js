@@ -12,3 +12,4 @@ camelCase = "This is camelCase.";
 
 var sum = 23 + 198;
 var difference = 1221 - 123;
+var product = 77 * 10;
