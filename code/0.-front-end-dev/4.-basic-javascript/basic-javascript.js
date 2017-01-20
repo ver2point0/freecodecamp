@@ -3,4 +3,5 @@
   multi-line comment
 */
 
-var myName;
+var myName = "jane doe";
+
