@@ -5,3 +5,5 @@
 
 var myName = "jane doe";
 
+var myNum = 0;
+
