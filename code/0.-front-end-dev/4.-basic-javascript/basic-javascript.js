@@ -22,3 +22,5 @@ myNum--;
 var myDecimal = 123.4;
 
 var decimalProduct = 2.0 * myDecimal;
+
+var decimalQuotient = myDecimal / decimalProduct;
