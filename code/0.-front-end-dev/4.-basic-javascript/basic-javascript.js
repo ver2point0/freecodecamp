@@ -30,3 +30,4 @@ var myRemainder = 123 % 2;
 var augmentAdd = 10;
 augmentAdd += 30;
 augmentAdd -= 35;
+augmentAdd *= 100;
