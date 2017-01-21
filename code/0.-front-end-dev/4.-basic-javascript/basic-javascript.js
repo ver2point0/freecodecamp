@@ -32,3 +32,9 @@ augmentAdd += 30;
 augmentAdd -= 35;
 augmentAdd *= 100;
 augmentAdd /= 5;
+
+function convertCToF(c) {
+  var f;
+  f = (c * (9/5)) + 32;
+  return f;
+}
