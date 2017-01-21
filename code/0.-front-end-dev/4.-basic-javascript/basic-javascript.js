@@ -26,3 +26,6 @@ var decimalProduct = 2.0 * myDecimal;
 var decimalQuotient = myDecimal / decimalProduct;
 
 var myRemainder = 123 % 2;
+
+var augmentAdd = 10;
+augmentAdd += 30;
