@@ -41,3 +41,5 @@ function convertCToF(c) {
 
 var myFName = "jane";
 var myLName = "doe";
+
+var doubleQuotes = "\"Double quoted\".";
