@@ -16,3 +16,5 @@ var product = 77 * 10;
 var quotient = 2 / 1;
 
 myNum++;
+
+myNum--;
