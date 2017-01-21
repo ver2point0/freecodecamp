@@ -38,3 +38,6 @@ function convertCToF(c) {
   f = (c * (9/5)) + 32;
   return f;
 }
+
+var myFName = "jane";
+var myLName = "doe";
