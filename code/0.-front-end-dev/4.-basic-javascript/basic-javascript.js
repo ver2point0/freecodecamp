@@ -18,3 +18,5 @@ var quotient = 2 / 1;
 myNum++;
 
 myNum--;
+
+var myDecimal = 123.4;
