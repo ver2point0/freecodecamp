@@ -62,3 +62,6 @@ itemOne += itemTwo;
 var nameLength = "Jane Doe".length;
 
 var firstCharacter = "asdfkj;l"[0];
+
+var firstString = "mispelld";
+firstString = "misspelled";
