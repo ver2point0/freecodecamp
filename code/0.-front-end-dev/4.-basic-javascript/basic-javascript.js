@@ -45,3 +45,5 @@ var myLName = "doe";
 var doubleQuotes = "\"Double quoted\".";
 
 var singleQoutes = 'This is a single-quoted "string" with "double" quotes.';
+
+var escapeSequence = "FirstLine\n\\SecondLine\\\rThirdLine";
