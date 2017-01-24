@@ -52,3 +52,5 @@ var concatString = "This " + "is" + " concatenated.";
 
 var concatPlus = "Cat-";
 concatPlus += "Dog";
+
+var stringVar = "This is my " + concatPlus + " friend."
