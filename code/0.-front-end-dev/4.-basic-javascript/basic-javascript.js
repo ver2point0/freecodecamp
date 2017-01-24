@@ -49,3 +49,6 @@ var singleQoutes = 'This is a single-quoted "string" with "double" quotes.';
 var escapeSequence = "FirstLine\n\\SecondLine\\\rThirdLine";
 
 var concatString = "This " + "is" + " concatenated.";
+
+var concatPlus = "Cat-";
+concatPlus += "Dog";
