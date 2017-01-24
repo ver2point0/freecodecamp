@@ -54,3 +54,7 @@ var concatPlus = "Cat-";
 concatPlus += "Dog";
 
 var stringVar = "This is my " + concatPlus + " friend."
+
+var itemTwo = "This is item 2.";
+var itemOne = "This is item 1. ";
+itemOne += itemTwo;
