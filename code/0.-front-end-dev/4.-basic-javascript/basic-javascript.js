@@ -65,3 +65,6 @@ var firstCharacter = "asdfkj;l"[0];
 
 var firstString = "mispelld";
 firstString = "misspelled";
+
+var comeHere = "Come Here";
+var comeThere = comeHere[5];
