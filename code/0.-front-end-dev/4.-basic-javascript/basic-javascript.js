@@ -71,3 +71,6 @@ var comeThere = comeHere[5];
 
 var lastCharacter ="Last Character";
 var lastLetter = lastCharacter[lastCharacter.length - 1];
+
+var secondToLastCharacter = "2nd to last";
+var secondToLast = secondToLastCharacter[secondToLastCharacter.length - 2];
