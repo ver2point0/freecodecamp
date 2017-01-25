@@ -85,3 +85,4 @@ blankWords("cat", "black", "ate", "soundly");
 var mixValueArray = ["string", 1, 'c'];
 
 var multiDimenArray = [["one", ""], [1, 2], ['a', 'b', 'c']];
+multiDimenArray[0];
