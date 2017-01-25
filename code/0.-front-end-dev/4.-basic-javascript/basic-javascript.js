@@ -81,3 +81,5 @@ function blankWords(noun, adjective, verb, adverb) {
 }
 
 blankWords("cat", "black", "ate", "soundly");
+
+var mixValueArray = ["string", 1, 'c'];
