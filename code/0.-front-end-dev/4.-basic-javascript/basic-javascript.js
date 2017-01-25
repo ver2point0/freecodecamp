@@ -68,3 +68,6 @@ firstString = "misspelled";
 
 var comeHere = "Come Here";
 var comeThere = comeHere[5];
+
+var lastCharacter ="Last Character";
+var lastLetter = lastCharacter[lastCharacter.length - 1];
