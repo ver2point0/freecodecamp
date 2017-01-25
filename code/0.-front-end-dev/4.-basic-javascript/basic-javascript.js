@@ -87,3 +87,5 @@ var mixValueArray = ["string", 1, 'c'];
 var multiDimenArray = [["one", ""], [1, 2], ['a', 'b', 'c']];
 multiDimenArray[0];
 multiDimenArray[0][1] = "two";
+
+var accesMultiArray = multiDimenArray[2][2];
