@@ -74,3 +74,10 @@ var lastLetter = lastCharacter[lastCharacter.length - 1];
 
 var secondToLastCharacter = "2nd to last";
 var secondToLast = secondToLastCharacter[secondToLastCharacter.length - 2];
+
+function blankWords(noun, adjective, verb, adverb) {
+  var result = noun + ", " + adjective + ", " + verb + ", " + adverb;
+  return result;
+}
+
+blankWords("cat", "black", "ate", "soundly");
