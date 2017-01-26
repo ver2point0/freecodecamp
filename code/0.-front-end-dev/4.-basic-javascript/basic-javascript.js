@@ -124,3 +124,19 @@ function countBackwards(startingNum, endingNum) {
   } 
 }
 
+var myGlobal = 20;
+
+function oopsGlobalShouldNotBeGlobalInsideThisFunction() {
+  oopsGlobal = 200;
+}
+
+function useGlobalOutofScope() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
