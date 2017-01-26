@@ -116,3 +116,11 @@ function countToTen() {
     console.log(i);
   }
 }
+
+function countBackwards(startingNum, endingNum) {
+  var i;
+  for (i = startingNum; i > endingNum; i--) { 
+    console.log(i);
+  } 
+}
+
