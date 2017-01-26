@@ -162,3 +162,6 @@ function cheeseOrCheese() {
 
 cheeseOrCheese();
 
+function divideTen(n) {
+  return n / 10;
+}
