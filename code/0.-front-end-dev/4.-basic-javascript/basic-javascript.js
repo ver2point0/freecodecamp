@@ -90,9 +90,15 @@ multiDimenArray[0][1] = "two";
 
 var accesMultiArray = multiDimenArray[2][2];
 
+// add element to back of array
 var pushArray = multiDimenArray.push(["ee", "oo", "ii", "uu", "aa"]);
 
+// remove element from back of array
 var popArray = multiDimenArray.pop();
 
+// remove element from front of array
 var shiftArray = multiDimenArray.shift();
+
+// add element to front of array
+var unshiftArray = multiDimenArray.unshift(["aasdf", 123, 'c']);
 
