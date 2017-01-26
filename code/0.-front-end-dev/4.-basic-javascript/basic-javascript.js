@@ -140,3 +140,13 @@ function useGlobalOutofScope() {
   }
   console.log(output);
 }
+
+function myLocalScope() {
+  var myVar = "local";
+  console.log(myVar);
+}
+
+myLocalScope();
+
+//console.log(myVar); undefined because it is outside of scope
+
