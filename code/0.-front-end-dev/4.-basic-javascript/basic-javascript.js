@@ -150,3 +150,15 @@ myLocalScope();
 
 //console.log(myVar); undefined because it is outside of scope
 
+// Setup
+var cheese = "Cheddar";
+
+function cheeseOrCheese() {
+  var cheese = "Swiss";
+  return cheese;
+
+  return cheese;
+}
+
+cheeseOrCheese();
+
