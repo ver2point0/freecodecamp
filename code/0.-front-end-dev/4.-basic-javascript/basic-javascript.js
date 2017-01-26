@@ -102,3 +102,10 @@ var shiftArray = multiDimenArray.shift();
 // add element to front of array
 var unshiftArray = multiDimenArray.unshift(["aasdf", 123, 'c']);
 
+var foodList = [
+  ["food 1", 1],
+  ["food 2", 2],
+  ["food 3", 3],
+  ["food 4", 4],
+  ["food 5", 5]
+];
