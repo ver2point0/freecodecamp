@@ -165,3 +165,12 @@ cheeseOrCheese();
 function divideTen(n) {
   return n / 10;
 }
+
+
+var say = "You are ";
+
+function sayMyName(name) {
+  return say + name + "!";
+}
+
+say = sayMyName("Heisenberg");
