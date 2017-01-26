@@ -93,3 +93,6 @@ var accesMultiArray = multiDimenArray[2][2];
 var pushArray = multiDimenArray.push(["ee", "oo", "ii", "uu", "aa"]);
 
 var popArray = multiDimenArray.pop();
+
+var shiftArray = multiDimenArray.shift();
+
