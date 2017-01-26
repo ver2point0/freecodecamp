@@ -109,3 +109,10 @@ var foodList = [
   ["food 4", 4],
   ["food 5", 5]
 ];
+
+function countToTen() {
+  var i;
+  for (i = 0; i < 11; i++) { 
+    console.log(i);
+  }
+}
