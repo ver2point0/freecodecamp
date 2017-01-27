@@ -174,3 +174,8 @@ function sayMyName(name) {
 }
 
 say = sayMyName("Heisenberg");
+
+function queueLine(array, item) {
+  array.push(item);
+  return array.shift([0]);
+}
