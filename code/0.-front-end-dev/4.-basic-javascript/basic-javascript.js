@@ -232,3 +232,10 @@ function greaterThanOrEqual(val) {
   }
   return "Less than 55";
 }
+
+function lessThan(val) {
+  if (val < 55) { 
+    return "Less than 55";
+  }
+  return "55 or over";
+}
