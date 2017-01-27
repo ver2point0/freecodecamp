@@ -190,3 +190,10 @@ function tOrF(oneOrZero) {
   }
   return "This is not the one.";
 }
+
+function valueEqual(val) {
+  if (val == 100) { 
+    return "They are equal";
+  }
+  return "They are not equal";
+}
