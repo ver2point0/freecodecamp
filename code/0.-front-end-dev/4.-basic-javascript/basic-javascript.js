@@ -211,3 +211,10 @@ function notEqual(val) {
   }
   return "They are equal";
 }
+
+function strictNotEqual(val) {
+  if (val !== 1) { 
+    return "They are not equal";
+  }
+  return "They are equal";
+}
