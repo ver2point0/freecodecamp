@@ -204,3 +204,10 @@ function valueAndDataTypeEqual(val) {
   }
   return "They are not equal";
 }
+
+function notEqual(val) {
+  if (val != 1) { 
+    return "They are not equal";
+  }
+  return "They are equal";
+}
