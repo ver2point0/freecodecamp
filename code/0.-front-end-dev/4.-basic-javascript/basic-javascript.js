@@ -218,3 +218,10 @@ function strictNotEqual(val) {
   }
   return "They are equal";
 }
+
+function greaterThan(val) {
+  if (val > 123) { 
+    return "More than 123";
+  }
+  return "Less than 123";
+}
