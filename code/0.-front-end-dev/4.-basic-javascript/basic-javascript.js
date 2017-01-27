@@ -179,3 +179,7 @@ function queueLine(array, item) {
   array.push(item);
   return array.shift([0]);
 }
+
+function returnTrue() {
+return !false;
+}
