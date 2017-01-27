@@ -192,7 +192,14 @@ function tOrF(oneOrZero) {
 }
 
 function valueEqual(val) {
-  if (val == 100) { 
+  if (val == 100) { // tests value not data type
+    return "They are equal";
+  }
+  return "They are not equal";
+}
+
+function valueAndDataTypeEqual(val) {
+  if (val === 10) { // tests value and data type
     return "They are equal";
   }
   return "They are not equal";
