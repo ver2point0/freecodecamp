@@ -183,3 +183,10 @@ function queueLine(array, item) {
 function returnTrue() {
 return !false;
 }
+
+function tOrF(oneOrZero) {
+  if (oneOrZero) {
+    return "This is the one.";
+  }
+  return "This is not the one.";
+}
