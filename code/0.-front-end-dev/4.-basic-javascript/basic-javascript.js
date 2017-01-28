@@ -268,3 +268,13 @@ function elseState(value) {
     return "wrong!";
   }
 }
+
+function elseIfState(value) {
+  if (value === 1) { 
+    return "Right Once!";
+  } else if (value === 2) {
+    return "Right Twice!";
+  } else {
+    return "Wrong more often!"
+  }
+}
