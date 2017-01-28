@@ -278,3 +278,17 @@ function elseIfState(value) {
     return "Wrong more often!"
   }
 }
+
+function chainElseIfState(value) {
+  if (value === 1) { 
+    return "Right Once!";
+  } else if (value === 2) {
+    return "Right Twice!";
+  } else if (value === 3) {
+    return "Right Thrice!";
+  } else if (value === 4) {
+    return "Right four times!";
+  } else {
+    return "You're not right!"
+  }
+}
