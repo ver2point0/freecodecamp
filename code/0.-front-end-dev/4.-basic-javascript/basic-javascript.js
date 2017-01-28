@@ -326,6 +326,25 @@ function switchStatement(grade) {
     case grade >= 60:
       letter = "D";
       break;
+  }
+  return letter;  
+}
+
+function switchDefaultStatement(grade) {
+  var letter = "";
+  switch (grade) {
+    case grade >= 90:
+      letter = "A";
+      break;
+    case grade >= 80:
+      letter = "B";
+      break;
+    case grade >= 70:
+      letter = "C";
+      break;
+    case grade >= 60:
+      letter = "D";
+      break;
     default:
       letter = "F";
       break;
