@@ -310,3 +310,25 @@ function discGolfScore(par, throws) {
     return "Go Home!";
   }
 }
+
+function switchStatement(grade) {
+  var letter = "";
+  switch (grade) {
+    case grade >= 90:
+      letter = "A";
+      break;
+    case grade >= 80:
+      letter = "B";
+      break;
+    case grade >= 70:
+      letter = "C";
+      break;
+    case grade >= 60:
+      letter = "D";
+      break;
+    default:
+      letter = "F";
+      break;
+  }
+  return letter;  
+}
