@@ -292,3 +292,21 @@ function chainElseIfState(value) {
     return "You're not right!"
   }
 }
+
+function discGolfScore(par, throws) {
+  if (throws === 1) {
+    return "Hole-in-one!";
+  } else if (throws <= par - 2) {
+    return "Eagle";
+  } else if (throws === par - 1) {
+    return "Birdie";
+  } else if (throws === par) {
+    return "Par";
+  } else if (throws === par + 1) {
+    return "Bogey";
+  } else if (throws === par + 2) {
+    return "Double Bogey";
+  } else {
+    return "Go Home!";
+  }
+}
