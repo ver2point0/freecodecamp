@@ -239,3 +239,10 @@ function lessThan(val) {
   }
   return "55 or over";
 }
+
+function lessThanOrEqual(val) {
+  if (val <= 12) { 
+    return "Less than 12";
+  }
+  return "12 or over";
+}
