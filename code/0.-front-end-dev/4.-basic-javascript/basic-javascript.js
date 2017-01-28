@@ -260,3 +260,11 @@ function logicOr(val) {
   }
   return "Try again!";
 }
+
+function elseState(value) {
+  if (value === 1) { 
+    return "RIGHT!";
+  } else {
+    return "wrong!";
+  }
+}
