@@ -253,3 +253,10 @@ function logicAnd(val) {
   }
   return "Try again!";
 }
+
+function logicOr(val) {
+  if (val < 1 || val > 5) { 
+    return "You got it!";
+  }
+  return "Try again!";
+}
