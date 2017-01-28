@@ -246,3 +246,10 @@ function lessThanOrEqual(val) {
   }
   return "12 or over";
 }
+
+function logicAnd(val) {
+  if (val >= 1 && val <= 5) { 
+    return "You got it!";
+  }
+  return "Try again!";
+}
