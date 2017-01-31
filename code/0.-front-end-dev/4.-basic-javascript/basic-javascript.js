@@ -419,3 +419,6 @@ var numbers = {
   "two": 2,
   "three": 3
 };
+
+var zero = numbers.zero;
+var one = numbers.one;
