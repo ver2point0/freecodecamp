@@ -375,3 +375,9 @@ function mulitpleOptions(grade) {
 function whichIsLess(x, y) {
   return x < y; 
 }
+
+function returnEarly(x, y) {
+  if (x < 0 || y > 0) {
+    return undefined;
+  }
+}
