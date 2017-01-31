@@ -371,3 +371,7 @@ function mulitpleOptions(grade) {
   }
   return result;  
 }
+
+function whichIsLess(x, y) {
+  return x < y; 
+}
