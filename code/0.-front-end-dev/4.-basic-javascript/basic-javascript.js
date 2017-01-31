@@ -430,3 +430,5 @@ var zeroValue = "zero";
 var valueOfZero = numbers[zeroValue];
 
 numbers.zero = "This is zero";
+
+numbers.four = 4;
