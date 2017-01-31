@@ -422,3 +422,6 @@ var numbers = {
 
 var zero = numbers.zero;
 var one = numbers.one;
+
+var two = numbers["two"];
+var three = numbers["three"];
