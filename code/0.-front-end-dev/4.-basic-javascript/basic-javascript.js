@@ -425,3 +425,6 @@ var one = numbers.one;
 
 var two = numbers["two"];
 var three = numbers["three"];
+
+var zeroValue = "zero";
+var valueOfZero = numbers[zeroValue];
