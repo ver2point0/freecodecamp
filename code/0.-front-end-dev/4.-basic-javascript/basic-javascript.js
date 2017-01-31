@@ -351,3 +351,23 @@ function switchDefaultStatement(grade) {
   }
   return letter;  
 }
+
+function mulitpleOptions(grade) {
+  var result = "";
+  switch (grade) {
+    case 100:
+    case 90:
+    case 80:
+      result = "Excellent";
+      break;
+    case 70:
+    case 60:
+      result = "Satisfactory";
+      break;
+    case 50:
+    case 40:
+    case 30:
+      result = "Unsatisfactory";
+  }
+  return result;  
+}
