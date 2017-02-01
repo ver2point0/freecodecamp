@@ -434,3 +434,13 @@ numbers.zero = "This is zero";
 numbers.four = 4;
 
 delete numbers.three; // delete numbers["three"];
+
+function numbersLookup(number) {
+  var numbers = {
+  "zero": 0,
+  "one": 1,
+  "two": 2,
+  "three": 3
+  };
+  return numbers[number];
+}
