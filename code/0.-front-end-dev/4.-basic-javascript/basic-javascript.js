@@ -585,3 +585,7 @@ var numCount = numberPhrase.match(regexNum).length;
 var spacePhrase = "The quick brown fox ate 10 lazy dogs yesterday and 2 lazy dogs today while sipping 30 whiskey shots.";
 var regexSpace = /\s+/g;
 var spaceCount = spacePhrase.match(regexSpace).length;
+
+var nonWhiteSpace = "The quick brown fox ate 10 lazy dogs yesterday and 2 lazy dogs today while sipping 30 whiskey shots.";
+var regexNon = /\S/g;
+var nonCount = nonWhiteSpace.match(regexNon).length;
