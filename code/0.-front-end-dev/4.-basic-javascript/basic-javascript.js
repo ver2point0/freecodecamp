@@ -444,3 +444,11 @@ function numbersLookup(number) {
   };
   return numbers[number];
 }
+
+function checkObjectNumbers(checkNum) {
+  if (numbers.hasOwnProperty(checkNum)) {
+    return numbers[checkNum];
+  } else {
+    return "Not Found";
+  }
+}
