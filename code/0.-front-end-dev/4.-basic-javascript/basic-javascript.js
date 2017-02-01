@@ -452,3 +452,20 @@ function checkObjectNumbers(checkNum) {
     return "Not Found";
   }
 }
+
+var elements = [
+  {
+    "element_name": "Hydrogen",
+    "chemical_symbol": "H",
+    "year_discovered": 1766,
+    "isotopes": [ "Protium", "Deuterium", "Tritium" ],
+    "naturally_occurring": true
+  },
+  {
+    "element_name": "Iron",
+    "chemical_symbol": "Fe",
+    "year_discovered": "before 5000 BC",
+    "isotopes": [ "54^Fe", "56^Fe", "57^Fe" ],
+    "naturally_occurring": true
+  }
+];
