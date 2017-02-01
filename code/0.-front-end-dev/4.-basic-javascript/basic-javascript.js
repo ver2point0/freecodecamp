@@ -513,3 +513,10 @@ function multiplyArray(mArray) {
   }
   return product;
 }
+
+var arr = [];
+var x = 0;
+while (x < 100) {
+  arr.push(x);
+  x++;
+}
