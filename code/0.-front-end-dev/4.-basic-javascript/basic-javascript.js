@@ -569,3 +569,7 @@ function randomFraction() {
 function randomWholeNum() {
   return Math.floor(Math.random() * 10);
 }
+
+function randomRange(xMin, xMax) {
+  return Math.floor(Math.random() * (xMax - xMin + 1)) + xMin;
+}
