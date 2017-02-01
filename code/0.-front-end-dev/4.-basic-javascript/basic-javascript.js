@@ -469,3 +469,15 @@ var elements = [
     "naturally_occurring": true
   }
 ];
+
+var element = {
+  "Hydrogen": {
+    "element_name": "Hydrogen",
+    "chemical_symbol": "H",
+    "year_discovered": 1766,
+    "isotopes": [ "Protium", "Deuterium", "Tritium" ],
+    "naturally_occurring": true
+  }
+};
+
+var accessNestedObject = element.Hydrogen.isotopes[0];
