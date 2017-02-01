@@ -502,3 +502,14 @@ var totalSum = 0;
 for (var i = 0; i < iterThruArray.length; i++) {
   totalSum += iterThruArray[i];
 }
+
+function multiplyArray(mArray) {
+  var product = 1;
+  // Only change code below this line
+  for (var i = 0; i < mArray.length; i++) {
+    for (var j = 0; j < mArray[i].length; j++) {
+      product *= mArray[i][j];
+    }
+  }
+  return product;
+}
