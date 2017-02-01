@@ -432,3 +432,5 @@ var valueOfZero = numbers[zeroValue];
 numbers.zero = "This is zero";
 
 numbers.four = 4;
+
+delete numbers.three; // delete numbers["three"];
