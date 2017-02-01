@@ -573,3 +573,7 @@ function randomWholeNum() {
 function randomRange(xMin, xMax) {
   return Math.floor(Math.random() * (xMax - xMin + 1)) + xMin;
 }
+
+var testPhrase = "The quick brown fox jumped over the lazy dog yesterday.";
+var regex = /the/gi;
+var count = testPhrase.match(regex).length;
