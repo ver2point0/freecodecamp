@@ -481,3 +481,5 @@ var element = {
 };
 
 var accessNestedObject = element.Hydrogen.isotopes[0];
+
+var accessNestedArray = elements[0].isotopes[0];
