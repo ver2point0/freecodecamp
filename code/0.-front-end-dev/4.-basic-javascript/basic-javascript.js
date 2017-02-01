@@ -496,3 +496,9 @@ for (var i = 1; i < 10; i += 2) {
 for (var i = 10; i > 0; i -= 2) {
   iterateForLoop.push(i);
 }
+
+var iterThruArray = [1, 2, 3, 4, 10, 100];
+var totalSum = 0;
+for (var i = 0; i < iterThruArray.length; i++) {
+  totalSum += iterThruArray[i];
+}
