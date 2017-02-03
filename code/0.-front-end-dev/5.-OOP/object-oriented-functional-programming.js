@@ -36,3 +36,17 @@ var MutantDog = function() {
     return powerLevel;
   };
 };
+
+var oldArray = [1,2,3,4,5];
+
+// Only change code below this line.
+
+var newArray = oldArray.map(function(value) {
+  return value + 3;
+});
+
+var mapArray = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+var newMapArray = mapArray.map(function(num) {
+  return num * 10;
+});
+
