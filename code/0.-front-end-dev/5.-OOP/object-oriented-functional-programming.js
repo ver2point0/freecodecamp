@@ -66,3 +66,5 @@ var newFilterArr = filterArr.filter(function(value) {
 filterArr.sort(function(a, b) {
   return b - a;
 });
+
+var reverseArr = filterArr.reverse();
