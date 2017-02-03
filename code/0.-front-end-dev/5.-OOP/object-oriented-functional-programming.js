@@ -62,3 +62,7 @@ var filterArr = [1,2,3,4,5,6,7,8,9,10];
 var newFilterArr = filterArr.filter(function(value) {
   return value > 4;
 });
+
+filterArr.sort(function(a, b) {
+  return b - a;
+});
