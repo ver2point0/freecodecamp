@@ -12,3 +12,11 @@ var MutantCat = function() {
 
 var coolCat = new MutantCat();
 coolCat.flightTime = 60;
+
+var MutantCat = function(e, t, l) {
+  this.eyes = e;
+  this.tails = t;
+  this.legs = l;
+};
+
+var customCat = new MutantCat(20, 123, 323);
