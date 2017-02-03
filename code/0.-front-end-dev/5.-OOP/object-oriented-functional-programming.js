@@ -20,3 +20,19 @@ var MutantCat = function(e, t, l) {
 };
 
 var customCat = new MutantCat(20, 123, 323);
+
+var MutantDog = function() {
+  var powerLevel = 0;
+  
+  this.decreasePowerLevel = function(substract) {
+    powerLevel -= substract;
+  };
+  
+  this.increasePowerLevel = function(add) {
+    powerLevel += add;
+  };
+  
+  this.getPowerLevel = function() {
+    return powerLevel;
+  };
+};
