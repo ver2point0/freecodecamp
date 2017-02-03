@@ -76,3 +76,5 @@ var mixArr = [];
 
 mixArr = numArr.concat(stringArr.concat(charArr));
 
+var stringSentence = "This is a sentence with words that is going to be split.";
+var splitArr = stringSentence.split(" ");
