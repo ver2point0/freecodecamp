@@ -3,3 +3,9 @@ var mutantCat = {
   "tails": 20,
   "legs": 2
 };
+
+var MutantCat = function() {
+  this.eyes = 10;
+  this.tails = 20;
+  this.legs = 2;
+};
