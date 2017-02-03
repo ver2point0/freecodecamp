@@ -9,3 +9,6 @@ var MutantCat = function() {
   this.tails = 20;
   this.legs = 2;
 };
+
+var coolCat = new MutantCat();
+coolCat.flightTime = 60;
