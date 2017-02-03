@@ -68,3 +68,11 @@ filterArr.sort(function(a, b) {
 });
 
 var reverseArr = filterArr.reverse();
+
+var numArr = [10, 9, 8];
+var stringArr = ["sadf", "sldkj", "saldkj"];
+var charArr = ['d', 'e', 'i'];
+var mixArr = [];
+
+mixArr = numArr.concat(stringArr.concat(charArr));
+
