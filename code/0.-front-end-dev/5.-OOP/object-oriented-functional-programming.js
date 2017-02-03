@@ -56,3 +56,9 @@ var singleNumber = 0;
 singleNumber = randomArray.reduce(function(previous, current) {
   return previous + current;
 }, 0);
+
+var filterArr = [1,2,3,4,5,6,7,8,9,10];
+
+var newFilterArr = filterArr.filter(function(value) {
+  return value > 4;
+});
