@@ -50,3 +50,9 @@ var newMapArray = mapArray.map(function(num) {
   return num * 10;
 });
 
+var randomWholeNumber = Math.floor(Math.random() * 100);
+var randomArray = [randomWholeNumber, randomWholeNumber];
+var singleNumber = 0;
+singleNumber = randomArray.reduce(function(previous, current) {
+  return previous + current;
+}, 0);
