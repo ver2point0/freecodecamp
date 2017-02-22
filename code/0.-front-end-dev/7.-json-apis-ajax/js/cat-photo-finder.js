@@ -1,6 +1,8 @@
 /*global $*/
 $(document).ready(function() {
   $("#getMessage").on("click", function() {
-    $(".message").html("Here is the message");
+    $.getJSON("/json/cats.json", function(json){
+      $(".messsage").html(JSON.stringify(json));
+    });
   });
 });
