@@ -3,7 +3,7 @@ function convertHTML(str) {
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
-    '\'': '&quot;',
+    '\"': '&quot;',
     '\'': '&apos;'
   };
   
